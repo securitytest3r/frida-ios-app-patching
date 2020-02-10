@@ -16,4 +16,5 @@ objection patchipa --source DamnVulnerableiOSApp.ipa --codesign-signature XXXXXX
 
 unzip DamnVulnerableiOSApp-frida-codesigned.ipa
 
-ios-deploy -W -b Payload/DamnVulnerableIOSApp.app```
+ios-deploy -W -b Payload/DamnVulnerableIOSApp.app
+```
